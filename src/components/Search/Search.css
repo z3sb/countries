@@ -1,0 +1,21 @@
+input{
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+  background: hsl(209, 23%, 22%);
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+::placeholder{
+  color: #fff;
+}
+@media (max-width: 768px){
+  .search{
+    width: 100%;
+  }
+  input{
+    width: 100%;
+  }
+}
